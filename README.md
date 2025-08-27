@@ -6,7 +6,7 @@ The project focuses on building an **Arduino-based biosensing system** to acquir
 
 ---
 
-## 🎯 Motivation
+##  Motivation
 Monitoring vital signs such as heart rate and respiration rate is crucial in healthcare, fitness, and early diagnosis of cardiovascular or respiratory disorders. Traditional systems can be costly and bulky, but **PPG sensors** provide a **low-cost, non-invasive, and portable** alternative.  
 
 The goal of this project was to design a compact system capable of:  
@@ -15,20 +15,20 @@ The goal of this project was to design a compact system capable of:
 
 ---
 
-## ⚙️ System Overview
+##  System Overview
 ### Hardware
-- **PPG Sensor:** Green LED + photodiode for optical sensing.  
+- **PPG Sensor:** Red LED + photodiode for optical sensing.  
 - **Arduino Uno:** Used for signal acquisition and serial data transfer.  
 - **Finger Placement Method:** Sensor records variations in light absorption due to blood volume changes in the finger.  
 
 ### Software & Tools
 - **Arduino IDE** → For microcontroller programming.  
-- **Python (NumPy, SciPy, Matplotlib)** → Filtering, peak detection, frequency analysis.  
+- **Python ** → Filtering, peak detection, frequency analysis.  
 - **MATLAB** → Validation of algorithms and visualization.  
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 1. **Signal Acquisition**
    - Raw PPG signals captured using Arduino and sensor module.  
    - Data transferred via serial communication and saved for analysis.  
@@ -47,11 +47,11 @@ The goal of this project was to design a compact system capable of:
 
 ---
 
-## 📊 Results
+##  Results
 - **Heart Rate:** Estimated within ±2 BPM of reference values.  
 - **Breathing Rate:** Validated with controlled breathing cycles.  
 - Demonstrated that **low-cost, Arduino-based hardware** can achieve reliable results for basic physiological monitoring.  
 
 ---
 
-## 📂 Repository Structure
+
