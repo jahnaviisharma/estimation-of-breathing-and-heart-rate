@@ -23,7 +23,7 @@ The goal of this project was to design a compact system capable of:
 
 ### Software & Tools
 - **Arduino IDE** → For microcontroller programming.  
-- **Python ** → Filtering, peak detection, frequency analysis.  
+- **Python** → Filtering, peak detection, frequency analysis.  
 - **MATLAB** → Validation of algorithms and visualization.  
 
 ---
